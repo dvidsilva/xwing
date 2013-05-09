@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface DVDViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *space;
+@property (weak, nonatomic) IBOutlet UIImageView *xwing;
 
 @end
